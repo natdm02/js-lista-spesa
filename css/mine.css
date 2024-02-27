@@ -1,0 +1,29 @@
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: black;
+  margin: 20px;
+  text-align: center;
+}
+/* ----------- */
+
+#items {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Stile per gli elementi della lista */
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+/* Cambia colore al passaggio del mouse */
+li:hover {
+  background-color: #e0e0e0;
+}
